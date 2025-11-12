@@ -6,7 +6,7 @@ A responsive personal portfolio website showcasing my projects, skills, and jour
 
 ## 🌐 Live Demo
 [Visit My Portfolio](jayandan-portfolio.netlify.app)  
-*(Replace with your actual live link after deploying)*
+
 
 ---
 
@@ -25,4 +25,4 @@ A responsive personal portfolio website showcasing my projects, skills, and jour
 ## ⚙️ Setup Instructions
 1. Clone the repository  
    ```bash
-   git clone https://github.com/jayandan2006/Portfolio.git
+   git clone https://github.com/jayandan2006/portfolio.git
