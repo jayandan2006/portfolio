@@ -1,0 +1,169 @@
+/* === RESET STYLES === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === BASIC PAGE STYLES === */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f9fafc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* === HEADER === */
+header {
+  background: #0078d7;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffea00;
+}
+
+/* === HERO SECTION === */
+#hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+}
+
+#hero h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #0059b3;
+}
+
+#hero p {
+  font-size: 1.1em;
+}
+
+/* === ABOUT SECTION === */
+#about {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#about h2 {
+  color: #0078d7;
+  margin-bottom: 20px;
+}
+
+#about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+
+/* === PROJECTS SECTION === */
+#projects {
+  background: #f1f1f1;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#projects h2 {
+  color: #0078d7;
+  margin-bottom: 15px;
+}
+
+#projects ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+#projects li {
+  background: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#projects a {
+  display: inline-block;
+  margin-left: 10px;
+  color: #ffffff;
+  background: #0078d7;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+#projects a:hover {
+  background: #005bb5;
+}
+
+/* === CONTACT SECTION === */
+#contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#contact h3 {
+  color: #0078d7;
+  margin-bottom: 10px;
+}
+
+#contact a {
+  color: #0078d7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* === FOOTER === */
+footer {
+  background: #0078d7;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px;
+    font-size: 0.9rem;
+  }
+
+  #projects li {
+    width: 95%;
+  }
+}
