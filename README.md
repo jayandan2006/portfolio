@@ -5,13 +5,13 @@ A responsive personal portfolio website showcasing my projects, skills, and jour
 ---
 
 ## 🌐 Live Demo
-[Visit My Portfolio](https://jayandan2006.github.io/Portfolio/)  
+[Visit My Portfolio](jayandan-portfolio.netlify.app)  
 *(Replace with your actual live link after deploying)*
 
 ---
 
 ## 💻 GitHub Repository
-[View Source Code](https://github.com/jayandan2006/Portfolio)
+[View Source Code](https://github.com/jayandan2006/portfolio)
 
 ---
 
